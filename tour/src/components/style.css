@@ -1,0 +1,83 @@
+/* tours */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tours {
+    width: 620px;
+    margin: 0 auto;
+}
+/* tour */
+
+section {
+    width: 620px;
+    margin: 28px 0;
+    border: 1px solid #49a6e9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section .tourImg {
+    width: 620px;
+    height: 380px;
+    overflow: hidden;
+}
+
+section .tourImg img {
+    width: 100%;
+    object-fit: contain;
+}
+section footer {
+    padding: 10px 20px;
+}
+section footer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section footer h4:nth-child(1) {
+    font-size: 20px;
+}
+section footer h4:nth-child(2) {
+    color: #fff;
+    background-color: #49a6e9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+section p {
+    text-align: justify;
+    margin: 0 0 15px;
+}
+section p span {
+    color: #222fe2;
+    cursor: pointer;
+}
+
+section footer button {
+    font-size: 16px;
+    color: #bb2556;
+    background: transparent;
+    border: 1px solid #bb2556;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+section footer button:focus {
+    outline: none;
+}
+
+/* refresh */
+
+.App .refreshButton {
+    font-size: 16px;
+    color: #08a329;
+    background: transparent;
+    border: 1px solid #068d24;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+.App .refreshButton:focus {
+    outline: none;
+}
