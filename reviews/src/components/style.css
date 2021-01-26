@@ -1,0 +1,76 @@
+section {
+    width: 450px;
+    height: 5 00px;
+    margin: 0 auto;
+    padding: 50px 80px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+section .icons {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.icons .quoteIcon {
+    position: absolute;
+    padding: 15px;
+    color: #fff;
+    background-color: #49a6e9;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px -5px #49a6e9;
+}
+
+section h2 {
+    font-family: Arial;
+}
+
+section span {
+    font-weight: 300;
+    font-size: 20px;
+    color: #2674ac;
+}
+
+section p {
+    text-align: center;
+}
+
+section .navigate {
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Arrow {
+    font-size: 20px;
+    font-weight: 100;
+    color: #49a6e9;
+}
+
+section .surprise {
+    margin: 10px auto 0;
+    padding: 5px 8px;
+    font-size: 18px;
+    background-color: #ebf7ff;
+    color: #49a6e9;
+    border: 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+section .surprise:hover {
+    background-color: #2674ac;
+    color: #fff;
+}
