@@ -1,0 +1,68 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuList {
+    width: 75vw;
+    margin: 45px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem 5rem;
+}
+article {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-template-rows: 150px;
+    grid-gap: 0 1rem;
+}
+.menuImg {
+    width: 225px;
+    height: 150px;
+}
+.menuImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0.25rem solid #c59d5f;
+}
+
+.info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #617da4;
+    align-items: start;
+    padding-bottom: 5px;
+}
+header h4 {
+    font-size: 16px;
+}
+
+.price {
+    color: #c59d5f;
+}
+.info p {
+    text-align: justify;
+    color: #102a42;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.btn-container {
+    margin: 25px 0;
+}
+.btn-container button {
+    color: #c59d5f;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border: 2px solid #c59d5f;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.btn-container button:hover {
+    background: #c59d5f;
+    color: #fff;
+}
